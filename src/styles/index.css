@@ -1,5 +1,23 @@
 :root {
---raising-black: #272727;
---mustard: #fed766;
---moonstone: #009fb7;
+--primary-color: #fed766 ;
+--secondary-color: #272727;
+--primary-background: #009fb7;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 16px;
+}
+
+.logo-company a img {
+height: 100px;
+
 }
