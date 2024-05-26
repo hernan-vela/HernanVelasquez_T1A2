@@ -24,7 +24,7 @@ header {
 .logo-company a img {
   height: 100px;
   /*NOT CLEAR WHY THIS LOGO IS NOT ON LEFT*/
-  text-align: right;
+  text-align: left;
   padding: 16px;
 }
 
@@ -40,7 +40,16 @@ header {
 #nav-items a {
   text-decoration: none;
   text-shadow: 2px 5px 4px rgba(127, 137, 200, 0.76);
-  text
+}
+
+.nav-pages {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+  gap: 18px;
 }
 
 footer {
