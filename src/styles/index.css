@@ -2,15 +2,15 @@
   --primary-color: #fed766;
   --secondary-color: #272727;
   --primary-background: #009fb7;
+  --secondary-background: #EBEBEB;
 }
 
 body {
   margin: 0;
-  min-height: 100vh;
+  min-height: 120vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 header {
@@ -21,10 +21,12 @@ header {
   flex-direction: column;
 }
 
+.logo-company {
+  text-align: left;
+}
+
 .logo-company a img {
   height: 100px;
-  /*NOT CLEAR WHY THIS LOGO IS NOT ON LEFT*/
-  text-align: left;
   padding: 16px;
 }
 
@@ -39,7 +41,8 @@ header {
 
 #nav-items a {
   text-decoration: none;
-  text-shadow: 2px 5px 4px rgba(127, 137, 200, 0.76);
+  text-shadow: 1px -5px 3px rgba(77,63,63,0.51);
+  color: var(--secondary-color)
 }
 
 .nav-pages {
@@ -49,8 +52,24 @@ header {
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-around;
-  gap: 18px;
+  gap: 20px;
 }
+
+.nav-bar a {
+float: right;
+text-align: center;
+padding: 16px;
+}
+
+.nav-bar a:hover {
+background-color: var(--primary-background);
+border-radius: 15%;
+}
+
+.nav-bar a:active {
+  background-color: var(--secondary-background);
+}
+
 
 footer {
   background-color: var(--primary-color);
