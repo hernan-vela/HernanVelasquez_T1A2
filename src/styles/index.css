@@ -24,15 +24,16 @@ header {
 
 .logo-company {
   text-align: left;
+  width: 25%;
 }
 
-.logo-company a img {
-  height: 100px;
-  padding: 16px;
+.logo-company img {
+height: 100px;
 }
 
 #nav-pages {
   width: 100%;
+  float: right;
   display: flex;
   justify-content: space-around;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -51,7 +52,7 @@ header {
 
 .nav-list {
   display: flex;
-  /* flex-direction: row; */
+
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
@@ -104,9 +105,8 @@ footer {
 .info {
   margin: 5px 0;
 }
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   header {
-    display: flex;
     align-items: flex-end;
     justify-content: space-between;
   }
