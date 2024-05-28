@@ -1,4 +1,8 @@
-.main-picture img {
-    height: 300px;
-    width: 75px;
+main {
+    height: auto;
+    background-color: var(--accesory-color);
+}
+
+p {
+    text-align: center;
 }

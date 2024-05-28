@@ -21,15 +21,20 @@ header {
   display: flex;
   flex-direction: column;
 }
+/* Styling for the logo in the header */
 
 .logo-company {
   text-align: left;
-  width: 25%;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
 }
 
 .logo-company img {
-height: 100px;
+height: 110px;
 }
+
+/* Styling of navigation bar */
 
 #nav-pages {
   width: 100%;
