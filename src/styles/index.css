@@ -45,10 +45,11 @@ header {
   display: flex;
   gap: 1rem;
   justify-content: flex-start;
+  padding: 1rem;
 }
 
 .logo-company img {
-  height: 10vh;
+  height: 20vh;
 }
 
 /* Styling of navigation bar */
@@ -56,9 +57,6 @@ header {
   /* PURPOSE OF THIS COLOR IS TO SEE HOW THE PANEL CHANGES TO RESPONSIVENESS. IT
   MIGHT BE REMOVED IN THE FINAL PRODUCT */
   background-color: lightblue;
-  /* APPARENTLY THESE TWO CONDITIONS ARE NOT NEEDED FOR ONE ELEMENT */
-  /* display: flex; */
-  /* flex-direction: row; */
   max-width: 100vw;
   justify-content: center;
   padding: 0.7rem;
@@ -135,24 +133,32 @@ main {
 }
 
 .info {
-  width: 25vw;
+  width: 29vw;
   display: flex;
   flex-direction: row;
+  margin: 0;
   justify-content: space-between;
+  font-size: 1.3rem;
 }
 
-/* .info-item {
-  align-items: space-around;
+.info-item {
+  white-space: nowrap;
+}
+
+/* IN CASE THAT info-item IS WRAPPING INTO ITSELF, TRY
+ACTIVATING THIS DECLARATION */
+/* .info-item p {
+display: block;
+margin: 0;
 } */
 
 /* Media query for mobiles phones */
 @media screen and (max-width: 767px) {
-.panel {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
- 
+  .panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 
   .logo-company img {
     height: 7vh;
@@ -162,40 +168,27 @@ main {
     align-items: flex-end;
   } */
 
-
   .nav-list {
     font-size: 0.9rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+  }
 }
-}
-
-
-
 
 /* Media query for tablets */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
   .logo-company img {
     height: 7vh;
   }
 
-#nav-pages {
-  font-weight: 480;
-}
+  #nav-pages {
+    font-weight: 480;
+  }
 
   .nav-list {
-  font-size: 0.9rem;
-
-  /* .nav-list {
-    display: inline;
-  } */
-
-  /* .nav-link {
-    display: flex;
-    flex-direction: column;
-  } */
+    font-size: 0.9rem;
+  }
 
   .info {
     width: 45vw;
@@ -204,6 +197,4 @@ main {
 
 /* Media query for larger screen sizes */
 @media screen and (min-width: 1025px) {
-
-
 }
