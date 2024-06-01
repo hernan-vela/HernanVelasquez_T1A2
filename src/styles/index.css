@@ -155,11 +155,11 @@ footer {
 
 @media screen and (max-width: 767px) {
   
-  /*  */
   .logo-company img {
     height: 12vh;
   }
 
+  /* nav bar changed to column arrangement and moved to far right */
   .nav-list {
     font-size: 0.7rem;
     display: flex;
@@ -169,10 +169,13 @@ footer {
     gap: 0.5rem;
   }
 
+
+/* styling of active page */
 li .active {
 padding: 0.3rem;
 }
 
+/* override hovering from laptop view */
 .panel a:hover {
  padding: 0.3rem;
  border-radius: 10%;
@@ -186,21 +189,11 @@ padding: 0.3rem;
   justify-content: center;
 }
 
+/* Adujustments of size and weight of footer content */
 .social-media {
 width: 100vw;
 justify-content: stretch;
-
-  /* display: block;
-  width: 100vw;
-  align-content: space-evenly; */
 }
-
-/* .social-media .info {
-  display: block;
-  max-width: 100vw;
-} */
-
-
 
 .social-media a i {
   font-size: 0.7rem;
@@ -210,21 +203,17 @@ justify-content: stretch;
   font-size: 0.7rem;
 }
 
-
 }
-
 
 /* Media query for tablets */
 @media screen and (min-width: 768px) and (max-width: 1180px) {
+  
+  /*Downsized of logo on header */
   .logo-company img {
     height: 14vh;
   }
 
-  /* BE MINDFUL THE ABSENCE OF THIS DECLARATION SOMETIMES CHANGES
-  LAYOUT IN TABLET SIZE */
-  /* .panel {  
-  } */
-  
+  /*Downsized of font on the navbar */
   #nav-pages {
     font-weight: 480;
   }
@@ -233,6 +222,7 @@ justify-content: stretch;
     font-size: 0.9rem;
   }
 
+ /* Downsized content of footer */
 .social-media a i {
 font-size: 1rem;
 }
@@ -242,8 +232,4 @@ font-size: 1rem;
     font-size: 0.9rem;
   }
 
-}
-
-/* Media query for larger screen sizes */
-@media screen and (min-width: 1181px) {
 }
