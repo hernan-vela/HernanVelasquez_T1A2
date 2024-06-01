@@ -1,12 +1,9 @@
 :root {
   /* --primary-color: #F0DD98; */
-  --primary-color: #f19953;
-  --secondary-color: #272727;
+  --primary-color: #F0EADA;
+  --secondary-color: #44344F;
   --primary-background: #009fb7;
   --secondary-background: #ebebeb;
-  --accesory-color: #faff70;
-  --TEST-COLOR: magenta;
-  /* --primary-color: #fed766; */
 }
 
 /* Applied this sytle to the elements globally */
@@ -49,16 +46,17 @@ header {
 }
 
 .logo-company img {
-  height: 20vh;
+  height: 17vh;
 }
 
 /* Styling of navigation bar */
 .panel {
   /* PURPOSE OF THIS COLOR IS TO SEE HOW THE PANEL CHANGES TO RESPONSIVENESS. IT
   MIGHT BE REMOVED IN THE FINAL PRODUCT */
-  background-color: lightblue;
+  /* background-color: lightblue; */
   max-width: 100vw;
-  justify-content: center;
+  flex-direction: row;
+  align-content: center;
   padding: 0.7rem;
 }
 
@@ -73,8 +71,8 @@ header {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
-  padding: 15px;
-  gap: 20px;
+  padding: 0.8rem;
+  gap: 1.2rem;
   list-style: none;
   font-size: 1.4rem;
 }
@@ -87,13 +85,13 @@ header {
 li .active {
   font-weight: 990;
   background-color: var(--secondary-background);
-  padding: 15px;
-  border-radius: 15%;
+  padding: 0.7rem;
+  border-radius: 10%;
 }
 
 .panel a:hover {
   background-color: var(--primary-background);
-  padding: 16px;
+  padding: 1rem;
   border-radius: 12%;
   font-weight: 700;
 }
@@ -104,14 +102,10 @@ li .active {
 
 main {
   height: 50dvw;
-  background-color: blue;
+  background-color: var(--primary-color)
 }
 
 .footer-panel {
-  /* PURPOSE OF THIS COLOR IS TO SEE HOW THE PANEL 
-  CHANGES TO RESPONSIVENESS. IT MIGHT BE REMOVED 
-  IN THE FINAL PRODUCT */
-  background-color: var(--TEST-COLOR);
   display: flex;
   flex-direction: row;
   max-width: 100vw;
@@ -121,36 +115,32 @@ main {
 
 .social-media {
   display: flex;
-  float: left;
-  width: 20vw;
+  /* float: left; */
+  width: 15vw;
   justify-content: space-around;
 }
 
 .social-media a i {
-  font-size: 32px;
+  font-size: 2rem;
   color: var(--secondary-color);
-  margin: 16px;
+  margin: 1rem;
 }
 
 .info {
-  width: 29vw;
+  width: 66vw;
   display: flex;
   flex-direction: row;
   margin: 0;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: flex-start;
   font-size: 1.3rem;
 }
 
 .info-item {
   white-space: nowrap;
+  display: inline-block;
+  padding: 1rem;
 }
-
-/* IN CASE THAT info-item IS WRAPPING INTO ITSELF, TRY
-ACTIVATING THIS DECLARATION */
-/* .info-item p {
-display: block;
-margin: 0;
-} */
 
 /* Media query for mobiles phones */
 @media screen and (max-width: 767px) {
@@ -166,7 +156,7 @@ margin: 0;
 
   /* #nav-pages {
     align-items: flex-end;
-  } */
+  /* }  */
 
   .nav-list {
     font-size: 0.9rem;
@@ -177,11 +167,16 @@ margin: 0;
 }
 
 /* Media query for tablets */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1180px) {
   .logo-company img {
-    height: 7vh;
+    height: 14vh;
   }
 
+  /* BE MINDFUL THE ABSENCE OF THIS DECLARATION SOMETIMES CHANGES
+  LAYOUT IN TABLET SIZE */
+  /* .panel {  
+  } */
+  
   #nav-pages {
     font-weight: 480;
   }
@@ -190,11 +185,17 @@ margin: 0;
     font-size: 0.9rem;
   }
 
-  .info {
-    width: 45vw;
+.social-media a i {
+font-size: 1rem;
+}
+
+.info {
+    width: 55vw;
+    font-size: 0.9rem;
   }
+
 }
 
 /* Media query for larger screen sizes */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1181px) {
 }
