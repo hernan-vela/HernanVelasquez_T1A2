@@ -90,18 +90,11 @@ li .active {
 }
 
 .panel a:hover {
-  /* background-color: var(--primary-background); */
   padding: 1rem;
   border-radius: 12%;
   font-weight: 700;
 }
 
-/* Styling of main block. For more details refer to home.css */
-
-main {
-  height: 100%;
-  background-color: var(--primary-color)
-}
 
 /* Styling of the footer section */
 
