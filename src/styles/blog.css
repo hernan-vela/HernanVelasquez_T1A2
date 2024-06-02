@@ -1,9 +1,3 @@
-:root {
-  --primary-color: #f0eada;
-  --secondary-color: #44344f;
-  --primary-background: #daa41b;
-  --secondary-background: #efcf81;
-}
 /* Global styling of main section */
 main {
   display: flex;
@@ -14,6 +8,10 @@ main {
 
 /* Adjustment of container size and font for each post */
 .blog-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   width: 25rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -40,20 +38,49 @@ font-size: 1.4rem;
 }
 
 /* Media query for mobile devices  */
-@media screen and (min-width: 768px) and (max-width: 1180px;) {
-
+/* @media screen and (min-width: 768px) and (max-width: 1180px;) {
 .blog-post {
- width: 10rem;
 }
-
-
 .blog-title a {
   font-size: 0.4rem
+} 
+}*/
 
+/* Media query for mobile devices  */
+@media screen and (max-width: 767px) {
 
+/* .blog-post {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.blog-image img {
+  width: 40%;
+  height: auto;
+  margin: 0.2rem;
+}
+
+.blog-title a {
+  font-size: 0.8rem; */
 }
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
