@@ -15,11 +15,15 @@ My portfolio will be aim to show potential employers, future colaborators, and i
 ## Tech Stack
 This website has been built until this point, using entirely HTML and CSS. The CSS web layout commonly known as Flexbox has been extensively used across the site to facilitate responsiveness.
 
+The website was deployed using Netlify (https://www.netlify.com/), and the deployment settings are linked to the Github repository, in which case any modification in the repo is made, the website will be automatically updated.
+
 ## Functionality and Features
 This portfolio shows a Home page housing four main different pages with images, text, links, animated links, buttons and a form for user input. The website is intended to be easily browsed, with few information, simple buttons, and a simple design.
 
+By clicking on the links of the navigation bar, the user will be taken into a corresponding page inside the website. The design is simple, clean and easy to navigate, accomodating the layout to differents devices.
+
 ### Bespoken HTML and CSS files
-The raw files to create the website were coded from scratch using VSCode, and all the resources, files, and relevant information reside in an online repository in Github (see link at the top).
+The raw files to create the website were coded from scratch using VSCode, and all the resources, files and relevant information reside in an online repository in Github (see link at the top).
 
 ### Website Layout
 The site is comprised by a Home page with a profile picture of myself and a brief description of interests and personality, an About page with my education highlights and professional experience and a button link to a mock up resume; a Blog page that shows five made-up publications, each one with image, heading and date of post, which are linked to a generic post. It is also included a Contact page where an user can type information an submit it through a button at the bottom of the form.
@@ -28,25 +32,25 @@ The site is comprised by a Home page with a profile picture of myself and a brie
 Screenshot of sitemap
 
 ### Logo and Navigation Bar (navbar)
-Along the different pages of the whole website the header remains the same with the logo on the top left and a navbar on the top right. The logo shows my name (brand) and is when clicked it takes the user the Home page.
+Along the different pages of the whole website, the header remains the same with the logo on the top left, and a navbar on the top right. The logo shows my name (brand) and  when clicked it takes the user to the Home page.
 
 ![Header-screnshot](./docs/Header-SS.png)
 Screenshot of Header
 
 
-The navbar has a simple animation: it shows the page, where the user currently is highlighted in a different color, and when the user hovers with the pointer, the text is enlarged with a slight change on font weight.
+The navbar has a simple animation: it shows the page, where the user currently is, highlighted in a different color, and when the user hovers with the pointer, the text is enlarged with a slight change on font weight while the text is subtly displaced.
 
-![Home-active](./docs/Home-active-SS.png)
+![Home-active](./docs/Home-active-SS.png)  
 User inside Home page
 
-![About-active](./docs/About-active-SS.png)
+![About-active](./docs/About-active-SS.png)  
 User inside About page
 
 ![about-hovered](./docs/About-animated-SS.png) 
 About highligthed when hovered
 
 ### Footer and social media icons
-Similar to the header, the footer remains the same in all the pages of the site, with the contact information on the right bottom and icons linked to social media sites. These icons are clean, and they will take the user to its respective website if clicked.
+Similar to the header, the footer remains the same in all the pages of the site, with the contact information on the right bottom, and icons placed on the left bottom, linked to social media sites. These icons are clean, and they will take the user to its respective website if the user click on them.
 
 ![footer-example](./docs/Footer-SS.png)
 Screenshot of footer
@@ -55,36 +59,43 @@ Screenshot of footer
 Screenshot of social media icons
 
 ### Link to professional profile
-Inside the About page an image of a folder is showed, with the text "see more" next to it. This is a link that will take the user to a PDF of my resume (mock up profile)
+Inside the About has an image of a folder, with the text "see more" next to it. This is a link that will take the user to a PDF of my resume (mock up profile).
 
 ![link.resume](./docs/Resume-icon-SS.png)
 Screenshot of icon linked to CV
 
 
 ### Responsiveness
-The website is build with responsiveness in mind, feature that allows adaptation to different screen sizes as laptop, tablet and mobile devices. This quality changes the size of images, text and organisation of features to better reading and interaction.
+The website is build with responsiveness in mind, feature that allows adaptation to different screen sizes as laptop, tablet and mobile devices. This quality changes the size of images, text and organisation of features for better reading and interaction.
 
 ## Wireframes
 Below it is showed screenshots of the raw design of each page of the website. Each page has three versions of wireframes: laptop, tablet and mobile size.
 
 ### Home Page 
 
-![home-pc](./docs/Home-Computer.png)
+
+![home-pc](./docs/Home-Computer.png)  
 Screenshot of Home laptop design
+
 
 ![home-tablet](./docs/Home-Tablet.png)       
 Screenshot of Home tablet design
 
+
 ![home-mobile](./docs/Home-Phone.png)     
 Screenshot of Home mobile design
 
+
 ### About Page
 
-![about-pc](./docs/About-Computer.png)
+
+![about-pc](./docs/About-Computer.png)  
 Screenshot of About laptop design
+
 
 ![about-tablet](./docs/About-Tablet.png)   
 Screenshot of About tablet design
+
 
 ![about-mobile](./docs/About-Phone.png)  
 Screenshot of About mobile design
@@ -93,8 +104,28 @@ Screenshot of About mobile design
 ### Blog Page
 
 
+![blog-laptop](./docs/Blog-computer.png)  
+Screenshot of Blog laptop design
 
 
+![blog-tablet](./docs/Blog-Tablet.png)  
+Screenshot of Blog tablet design
+
+
+![blog-mobile](./docs/Blog-phone.png)   
+Screenshot of Blog mobile design
 
 
 ### Contact Page
+
+
+![contact-laptop](./docs/Contact-Computer.png)  
+Screenshot of Contact laptop design
+
+
+![contact-tablet](./docs/Contact-Tablet.png)  
+Screenshot of Contact tablet design
+
+
+![contact-mobile](./docs/Contact-Phone.png)  
+Screenshot of Contact mobile design
