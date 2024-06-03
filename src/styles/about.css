@@ -1,3 +1,93 @@
-.experience {
-    
+:root {
+    --primary-color: #F0EADA;
+    --secondary-color: #44344F;
+    --primary-background: #DAA41B;
+    --secondary-background: #EFCF81;
+  }
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+.experience-edu {
+    width: 70vw;
+}
+
+.experience-pro {
+    width: 70vw;
+}
+
+/* Style of headings inside experience section */
+.experience-head {
+  font-size: 2rem;
+}
+
+/*Style of experience and education text */
+.experience-list {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+/*Style of resume icon*/
+.resume {
+  font-size: 5rem;
+  margin-top: 3rem;
+  align-content: center;
+  color: var(--secondary-color);
+}
+
+/*Style of resume icon*/
+.resume a i {
+    color: var(--secondary-color);      
+}
+
+/* Media query for tablets */
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+    /* Adjustment of viewport for tablet */
+    body {
+        height: 100vh;
+    }
+
+/* Downsize of fonts */
+.experience-head{
+    font-size: 1.5rem;
+}
+
+.experience-list {
+    font-size: 1.5rem;
+}
+
+/* Downsize of resume icon */
+.resume {
+    font-size: 4rem;
+}
+}
+
+/* Media query for mobile phone */
+@media screen and (max-width: 767px) {
+
+    body {
+        height: 100vh;
+    }
+
+/* Downsize of fonts */
+.experience-head{
+    font-size: 1rem;
+}
+
+.experience-list {
+    font-size: 1rem;
+}
+
+/* Downsize of resume icon */
+.resume {
+    font-size: 2rem;
+}
+
 }
