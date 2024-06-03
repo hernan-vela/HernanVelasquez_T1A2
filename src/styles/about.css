@@ -48,7 +48,7 @@ main {
 }
 
 /* Media query for tablets */
-@media screen and (min-width: 768px) and (max-width: 1180px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     /* Adjustment of viewport for tablet */
     body {
         height: 100vh;

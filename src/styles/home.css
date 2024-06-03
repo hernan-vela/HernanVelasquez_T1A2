@@ -1,81 +1,78 @@
-
 /*Style of section with profile picture and welcome text */
 .welcome {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   width: 100%;
   gap: 3rem;
-  margin-left: 3rem; 
+  margin-left: 3rem;
 }
 
 /* Style the profile picture */
 .profile-pic img {
-  width: 30rem; 
-  height: 34rem; 
-  border-radius: 50%; 
-  object-fit: cover; 
+  width: 30rem;
+  height: 34rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* Style the welcome text container */
 .welcome-text {
-  font-family:
-  max-width: 45%; 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 45%;
   text-align: justify;
-font-size: 1.3rem ;
+  font-size: 1.3rem;
 }
 
 /*Styling of the welcome text */
 .welcome-text p {
-  font-size: 2rem; 
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
 /* Media query for mobile devices */
 @media screen and (max-width: 767px) {
-  
   /* Change stacking direction of welcome section*/
   .welcome {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     margin-left: 0.3rem;
   }
 
   /*Adjust of profile picture for mobile*/
   .profile-pic img {
-    width: 40%; 
+    width: 40%;
     height: auto;
   }
 
   .welcome-text {
-    max-width: 80%; 
-    /* font-size: 0.1rem */
+    max-width: 80%;
+    font-size: 1rem;
   }
 
   .welcome-text p {
-    font-size: 0.4rem;
+    font-size: 1rem;
   }
 }
 
 /* Media query for tablets */
-@media screen and (min-width: 768px) and (max-width: 1180) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
-  /*Style of main section of page*/
-.welcome {
-/* WHY IS IT NOT STACKING THE CONTENT IN COLUMN */
-  flex-direction: column;
-align-items: center;
-text-align: center;
+/* Adjusment of body height for better user view */
+  body {
+  height: 100vh;
 }
 
-/* Style of profile picture */
-.profile-pic img {
-    width: 1rem; 
-    height: 1rem;
+ .profile-pic img {
+  width: 20rem;
+  height: 24rem;
+ }
+
+  .welcome-text p {
+    font-size: 1.2rem;
   }
 }
 
-.welcome-text p {
-  font-size: 1.4rem;
-}
+

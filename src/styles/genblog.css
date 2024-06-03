@@ -28,7 +28,7 @@ h1 {
   }
 
   /* Media query for tablets */
-  @media screen and (min-width: 768px) and (max-width: 1180px) {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
     
 h1 {
     font-size: 1.5rem;
@@ -41,6 +41,7 @@ width: 65%;
 /* Increase of placeholder font */
 .genblog-entry {
     font-size: 1.2rem;
+    margin: 2.5rem 2.5rem;
 }
 }
 

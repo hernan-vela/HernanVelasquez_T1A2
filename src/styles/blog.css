@@ -29,7 +29,7 @@ main {
 
 /* Removal of default decoration of link */
 .blog-title {
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 
 /* Styling of text-link in the blog-post section */
@@ -42,8 +42,6 @@ font-size: 1.4rem;
 @media screen and (max-width: 767px) {
 
 main {
-  /* width: 100%; */
-  /* flex-wrap: nowrap; */
   flex-direction: column;
   margin: 0;
 }
@@ -69,10 +67,7 @@ main {
 .blog-title a {
   font-size: 0.8rem; 
 }
-
 }
-
-
 
 
 
