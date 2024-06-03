@@ -9,6 +9,12 @@ With this project is pretended to build up skills on constructing websites by us
 
 This also will be considered as an assignment to gain a qualification in the future, as a full stack web developer.
 
+### Target audience
+My portfolio will be aim to show potential employers, future colaborators, and in general people interested on designing websites, the knowledge that I have acquired until this point in regards to creation of online content.
+
+## Tech Stack
+This website has been built until this point, using entirely HTML and CSS. The CSS web layout commonly known as Flexbox has been extensively used across the site to facilitate responsiveness.
+
 ## Functionality and Features
 This portfolio shows a Home page housing four main different pages with images, text, links, animated links, buttons and a form for user input. The website is intended to be easily browsed, with few information, simple buttons, and a simple design.
 
@@ -48,11 +54,47 @@ Screenshot of footer
 ![social.media-icons](./docs/Social-icons-SS.png)     
 Screenshot of social media icons
 
+### Link to professional profile
+Inside the About page an image of a folder is showed, with the text "see more" next to it. This is a link that will take the user to a PDF of my resume (mock up profile)
+
+![link.resume](./docs/Resume-icon-SS.png)
+Screenshot of icon linked to CV
+
+
+### Responsiveness
+The website is build with responsiveness in mind, feature that allows adaptation to different screen sizes as laptop, tablet and mobile devices. This quality changes the size of images, text and organisation of features to better reading and interaction.
+
+## Wireframes
+Below it is showed screenshots of the raw design of each page of the website. Each page has three versions of wireframes: laptop, tablet and mobile size.
+
+### Home Page 
+
+![home-pc](./docs/Home-Computer.png)
+Screenshot of Home laptop design
+
+![home-tablet](./docs/Home-Tablet.png)       
+Screenshot of Home tablet design
+
+![home-mobile](./docs/Home-Phone.png)     
+Screenshot of Home mobile design
+
+### About Page
+
+![about-pc](./docs/About-Computer.png)
+Screenshot of About laptop design
+
+![about-tablet](./docs/About-Tablet.png)   
+Screenshot of About tablet design
+
+![about-mobile](./docs/About-Phone.png)  
+Screenshot of About mobile design
+
+
+### Blog Page
 
 
 
 
-(List of details that need to be included in this
-Readme file: Description of website including purpose,
-functionality / features, screenshots, sitemap, target,
-audience, tech stack)
+
+
+### Contact Page
