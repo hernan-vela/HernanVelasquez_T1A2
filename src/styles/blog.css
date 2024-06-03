@@ -4,6 +4,7 @@ main {
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
+  margin: 4.5rem;
 }
 
 /* Adjustment of container size and font for each blog post */
@@ -38,28 +39,20 @@ font-size: 1.4rem;
 }
 
 /* Media query for mobile devices  */
-/* @media screen and (min-width: 768px) and (max-width: 1180px;) {
-.blog-post {
-}
-.blog-title a {
-  font-size: 0.4rem
-} 
-}*/
-
-/* Media query for mobile devices  */
 @media screen and (max-width: 767px) {
 
 main {
-  /* width: 100% */
-  flex-wrap: nowrap;
+  /* width: 100%; */
+  /* flex-wrap: nowrap; */
   flex-direction: column;
-
+  margin: 0;
 }
 
-article {
+.blog-image {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
-
 
 
 .blog-post {
@@ -76,6 +69,7 @@ article {
 .blog-title a {
   font-size: 0.8rem; 
 }
+
 }
 
 
