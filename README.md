@@ -28,7 +28,7 @@ Along the different pages of the whole website the header remains the same with 
 Screenshot of Header
 
 
-The navbar has a simple animation: it shows the page where user currently is highlighted in a different color, and when a the user hovers with the pointer, text is enlarged with a slight change on font weight.
+The navbar has a simple animation: it shows the page, where the user currently is highlighted in a different color, and when the user hovers with the pointer, the text is enlarged with a slight change on font weight.
 
 ![Home-active](./docs/Home-active-SS.png)
 User inside Home page
@@ -36,17 +36,23 @@ User inside Home page
 ![About-active](./docs/About-active-SS.png)
 User inside About page
 
-![about-hovered](./docs/navbar-about-anmiated-SS.png) 
+![about-hovered](./docs/About-animated-SS.png) 
 About highligthed when hovered
+
+### Footer and social media icons
+Similar to the header, the footer remains the same in all the pages of the site, with the contact information on the right bottom and icons linked to social media sites. These icons are clean, and they will take the user to its respective website if clicked.
+
+![footer-example](./docs/Footer-SS.png)
+Screenshot of footer
+
+![social.media-icons](./docs/Social-icons-SS.png)     
+Screenshot of social media icons
+
+
+
+
 
 (List of details that need to be included in this
 Readme file: Description of website including purpose,
 functionality / features, screenshots, sitemap, target,
 audience, tech stack)
-
-## Portfolio Website
-
-![texto alt](./docs/colors.png "Coolors ss")
-
-
-![texto alternativo]
